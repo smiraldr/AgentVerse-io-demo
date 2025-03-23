@@ -28,12 +28,13 @@ docker pull smiraldr/agentverse-io-intelligence-demo
 
 ## 🚀 Running the Demo
 
-### Step 1: Add Your API Key
+### Step 1: Create the Local Directory and Add Your API Key
 
-Create a file named `.env` inside a folder called `agentverse-test`, and add your io intelligence API key:
+Create a local directory named `agentverse-test` and inside it create a file named `.env` with the following content:
 
 ```env
-IO_INTELLIGENCE_API_KEY=your_api_key_here
+VLLM_API_KEY=BRINGYOURKEYFROMIOINTELLIGENCE
+VLLM_BASE_URL=https://api.intelligence.io.solutions/api/v1
 ```
 
 Your folder structure should look like this:
@@ -45,10 +46,10 @@ agentverse-test/
 
 ### Step 2: Run the Container
 
-Navigate to the folder containing `agentverse-test` in your terminal and run:
+Open your terminal, navigate into the `agentverse-test` folder, and then run:
 
 ```bash
-docker run --env-file ./agentverse-test/.env -p 7860:7860 smiraldr/agentverse-iodemo sh -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
+docker run --env-file ./.env -p 7860:7860 smiraldr/agentverse-io-intelligence-demo sh -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
 ```
 
 ### Step 3: View the Simulation
@@ -65,7 +66,7 @@ You’ll see a simulation of AI agents discussing opportunities, challenges, and
 
 ## 💡 Additional Examples
 
-Other examples are available in the repository, showcasing a variety of scenarios. **Note:** These additional examples can be more complex as they may integrate tool calls. For these cases, some developer experience and knowledge of LLM capabilities—such as choosing the right type of LLM for the task—is recommended. You can extend the functionality by vibe coding with LLMs using IO Intelligence. IO Intelligence supports OpenAI standards and can be used as a drop in replacement for any application that works with OpenAI Developer api.
+Other examples are available in the repository, showcasing a variety of scenarios. **Note:** These additional examples can be more complex as they may integrate tool calls. For these cases, some developer experience and knowledge of LLM capabilities—such as choosing the right type of LLM for the task—is recommended. You can extend the functionality by vibe coding with LLMs using IO Intelligence. IO Intelligence supports OpenAI standards and can be used as a drop-in replacement for any application that works with the OpenAI Developer API.
 
 ---
 

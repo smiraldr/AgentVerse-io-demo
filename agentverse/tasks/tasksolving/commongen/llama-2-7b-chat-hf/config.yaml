@@ -97,7 +97,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 512
     output_parser:
@@ -114,7 +114,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 1024
     output_parser:
@@ -139,7 +139,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 1024
     output_parser:
@@ -155,7 +155,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 1024
     output_parser:
@@ -173,7 +173,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0.3
       max_tokens: 1024
     output_parser:
@@ -190,7 +190,7 @@ agents:
       memory_type: chat_history
     llm:
       llm_type: local
-      model: llama-2-7b-chat-hf
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 1024
     output_parser:

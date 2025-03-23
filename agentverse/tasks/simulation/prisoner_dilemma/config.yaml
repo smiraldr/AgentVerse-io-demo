@@ -52,8 +52,8 @@ agents:
       memory_type: chat_history
     prompt_template: *prompt
     llm:
-      model: "gpt-4"
-      llm_type: gpt-4
+      model: tiiuae/Falcon3-10B-Instruct
+      llm_type: vllm
       temperature: 1.2
       max_tokens: 200
     output_parser:
@@ -74,8 +74,8 @@ agents:
       memory_type: chat_history
     prompt_template: *prompt
     llm:
-      model: "gpt-4"
-      llm_type: gpt-4
+      model: tiiuae/Falcon3-10B-Instruct
+      llm_type: vllm
       temperature: 1.2
       max_tokens: 100
     output_parser:
@@ -96,8 +96,8 @@ agents:
       memory_type: chat_history
     prompt_template: *prompt
     llm:
-      model: "gpt-4"
-      llm_type: gpt-4
+      model: tiiuae/Falcon3-10B-Instruct
+      llm_type: vllm
       temperature: 1.2
       max_tokens: 100
     output_parser:

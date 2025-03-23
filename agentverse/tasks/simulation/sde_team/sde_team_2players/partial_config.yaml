@@ -156,7 +156,7 @@ agents:
     verbose: true
     receiver: [code_writer, code_reviewer]
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 0.
       max_tokens: 1024
     output_parser:
@@ -171,7 +171,7 @@ agents:
     verbose: true
     receiver: [code_writer, code_reviewer]
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 0.
       max_tokens: 256
     output_parser:
@@ -186,7 +186,7 @@ agents:
     verbose: true
     receiver: [code_writer]
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 0.
       max_tokens: 1024
     output_parser:

@@ -14,6 +14,8 @@ Follow the guide for your operating system:
 - **Windows:** [Install Docker on Windows](https://docs.io.net/docs/install-docker-on-windows)
 - **macOS:** [Install Docker on macOS](https://docs.io.net/docs/install-docker-on-macos)
 
+NOTE: you don't need GPUs on system to run this project so skip the gpu configuration on guide above
+
 ### 2. Generate io.net API Key
 
 Sign up at [https://io.net](https://io.net) and obtain your API key. Enjoy io intelligence capabilities for free!

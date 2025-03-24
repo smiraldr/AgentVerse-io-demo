@@ -49,7 +49,22 @@ agentverse-test/
 Open your terminal, navigate into the `agentverse-test` folder, and then run:
 
 ```bash
-docker run --env-file ./.env --network host --platform linux/amd64 smiraldr/agentverse-io-intelligence-demo sh -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
+docker run --env-file ./.env --network host --platform linux/amd64 smiraldr/agentverse-io-intelligence-demo sleep infinity &
+```
+
+View the docker container that was run
+```bash
+docker ps
+```
+
+Substitute the container id in following command
+```bash
+docker exec -it <container_id_or_name> bash -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
+```
+
+Final command would look like given example of a container id is 1fbc93a71c63 (it will be different for each run)
+```bash
+docker exec -it 1fbc93a71c63 bash -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
 ```
 
 ### Step 3: View the Simulation

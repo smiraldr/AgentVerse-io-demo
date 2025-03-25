@@ -167,8 +167,8 @@ agents:
     memory:
       memory_type: chat_history
     llm:
-      llm_type: gpt-4
-      model: "gpt-4"
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 256
     output_parser:
@@ -181,8 +181,8 @@ agents:
     memory:
       memory_type: chat_history
     llm:
-      llm_type: gpt-4
-      model: "gpt-4"
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 2048
 
@@ -195,8 +195,8 @@ agents:
     memory:
       memory_type: chat_history
     llm:
-      llm_type: gpt-4
-      model: "gpt-4"
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 256
     output_parser:
@@ -209,8 +209,8 @@ agents:
     memory:
       memory_type: chat_history
     llm:
-      llm_type: gpt-4
-      model: "gpt-4"
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 512
 
@@ -223,8 +223,8 @@ agents:
     memory:
       memory_type: chat_history
     llm:
-      llm_type: gpt-4
-      model: "gpt-4"
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0
       max_tokens: 128
     output_parser:

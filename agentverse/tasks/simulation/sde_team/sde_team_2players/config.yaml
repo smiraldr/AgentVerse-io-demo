@@ -1,8 +1,8 @@
 agents:
 - agent_type: conversation
   llm:
-    llm_type: gpt-4
-    model: "gpt-4"
+    llm_type: vllm
+    model: tiiuae/Falcon3-10B-Instruct
     max_tokens: 1024
     temperature: 0.0
   memory:
@@ -68,8 +68,8 @@ agents:
   verbose: true
 - agent_type: conversation
   llm:
-    llm_type: gpt-4
-    model: "gpt-4"
+    llm_type: vllm
+    model: tiiuae/Falcon3-10B-Instruct
     max_tokens: 256
     temperature: 0.0
   memory:
@@ -94,8 +94,8 @@ agents:
   verbose: true
 - agent_type: conversation
   llm:
-    llm_type: gpt-4
-    model: "gpt-4"
+    llm_type: vllm
+    model: tiiuae/Falcon3-10B-Instruct
     max_tokens: 1024
     temperature: 0.0
   memory:

@@ -80,8 +80,8 @@ agents:
       memory_manipulator_type: plan
     prompt_template: *prompt
     llm:
-      model: "gpt-4"
-      llm_type: gpt-4
+      model: tiiuae/Falcon3-10B-Instruct
+      llm_type: vllm
       temperature: 0.3
       max_tokens: 128
     output_parser:
@@ -118,8 +118,8 @@ agents:
       memory_manipulator_type: reflection
     prompt_template: *prompt
     llm:
-      model: "gpt-4"
-      llm_type: gpt-4
+      model: tiiuae/Falcon3-10B-Instruct
+      llm_type: vllm
       temperature: 0.3
       max_tokens: 128
     output_parser:

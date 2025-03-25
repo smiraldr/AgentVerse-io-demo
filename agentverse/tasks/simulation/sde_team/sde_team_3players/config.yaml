@@ -224,7 +224,7 @@ agents:
     verbose: true
     receiver: [code_writer, code_reviewer]
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 0.3
       max_tokens: 1024
     output_parser: sde_team/sde_team_3players
@@ -238,7 +238,7 @@ agents:
     verbose: true
     receiver: [code_writer]
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 0.3
       max_tokens: 1024
     output_parser: sde_team/sde_team_3players
@@ -249,7 +249,7 @@ agents:
     prompt_template: *prompt
     verbose: true
     llm:
-      llm_type: gpt-3.5-turbo
+      llm_type: vllm
       temperature: 1.0
       max_tokens: 1024
     output_parser: sde_team/sde_team_3players

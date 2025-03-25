@@ -201,14 +201,14 @@ agents:
     tool_memory:
       memory_type: chat_history
       llm:
-        llm_type: gpt-4
-        model: gpt-4
+        llm_type: vllm
+        model: tiiuae/Falcon3-10B-Instruct
         temperature: 0.7
       prompt_template: *summary_prompt
       recursive: true
     llm:
-      llm_type: gpt-4
-      model: gpt-4
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0.7
       max_tokens: 1024
     output_parser:
@@ -225,14 +225,14 @@ agents:
     tool_memory:
       memory_type: chat_history
       llm:
-        llm_type: gpt-4
-        model: gpt-4
+        llm_type: vllm
+        model: tiiuae/Falcon3-10B-Instruct
         temperature: 0.7
       prompt_template: *summary_prompt
       recursive: true
     llm:
-      llm_type: gpt-4
-      model: gpt-4
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0.7
       max_tokens: 512
     output_parser:
@@ -249,14 +249,14 @@ agents:
     tool_memory:
       memory_type: chat_history
       llm:
-        llm_type: gpt-4
-        model: gpt-4
+        llm_type: vllm
+        model: tiiuae/Falcon3-10B-Instruct
         temperature: 0.7
       prompt_template: *summary_prompt
       recursive: true
     llm:
-      llm_type: gpt-4
-      model: gpt-4
+      llm_type: vllm
+      model: tiiuae/Falcon3-10B-Instruct
       temperature: 0.7
       max_tokens: 512
     output_parser:

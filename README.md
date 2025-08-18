@@ -59,6 +59,11 @@ View the docker container that was run
 docker ps
 ```
 
+Make Edits and copy the example file you want to run, inside the container
+```bash
+docker cp /root/home/AgentVerse-io-demo/agentverse/tasks/simulation/depin_council/config.yaml   <container_id_or_name>:/app/AgentVerse/agentverse/tasks/simulation/depin_council/config.yaml
+```
+
 Substitute the container id in following command
 ```bash
 docker exec -it <container_id_or_name> bash -c "agentverse-simulation-gui --task /app/AgentVerse/agentverse/tasks/simulation/depin_council"
